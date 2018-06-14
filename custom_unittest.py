@@ -7,6 +7,6 @@ class SimpleWidgetTestCase(unittest.TestCase):
 
 class DefaultWidgetTestCase(SimpleWidgetTestCase):
     def runTest(self):
-        self.assertEqual(self.widget.size(),(50,50),'the incorrect size')
+        self.assertEqual(self.widget.size(),(50,50),'ddthe incorrect size')
 
 testcase = SimpleWidgetTestCase()
